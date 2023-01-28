@@ -5,5 +5,8 @@ def palindrom(x):
     print(first_list == list(reversed(first_list)))
 
 
-
+palindrom("kajak")
+palindrom("słowo")
+palindrom("123321")
+palindrom("potop")
 
