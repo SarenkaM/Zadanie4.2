@@ -1,20 +1,15 @@
-
-
 def palindrom_easy(word):
     """
     Check is given word palindrom
     Argument: checking word"""
     palindrom = True
     if word == word[::-1]:
-        print(palindrom)
+        return True
     else:
-        print(bool())
+        return False
 
 
+print(palindrom_easy(("kajak")))
+print(palindrom_easy(("kajaki")))
 
 
-palindrom_easy("kajak")
-palindrom_easy("słowo")
-palindrom_easy("123321")
-palindrom_easy("potop")
-palindrom_easy("pottop")
