@@ -2,14 +2,13 @@ def palindrom_easy(word):
     """
     Check is given word palindrom
     Argument: checking word"""
-    palindrom = True
-    if word == word[::-1]:
-        return True
-    else:
-        return False
+    return word == word[::-1]
+
+
 
 
 print(palindrom_easy(("kajak")))
 print(palindrom_easy(("kajaki")))
+print(palindrom_easy(("kkajakk")))
 
 
